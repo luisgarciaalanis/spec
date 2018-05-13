@@ -41,7 +41,7 @@ run:
         username: $(registryCreds.username)
         password: $(registryCreds.password)
     ports:
-      80: 80
+      '80': '80'
     sockets:
       /mySocket: $(mySocket)
     name: my-kitchen-sink
